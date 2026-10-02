@@ -290,14 +290,7 @@ Covered scenarios include:
 
 ## Repository
 
-**No remote repository was provided or created from this environment.** After publishing:
-
-```bash
-git remote add origin <github-repository-url>
-git push -u origin main
-```
-
-Replace this section with the GitHub URL.
+- **GitHub Repository**: [https://github.com/nikhiljangid120/hey-grok-careers-prototype](https://github.com/nikhiljangid120/hey-grok-careers-prototype)
 
 ## Disclaimer
 
