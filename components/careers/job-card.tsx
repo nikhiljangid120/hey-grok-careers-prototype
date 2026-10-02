@@ -31,6 +31,10 @@ export function JobCard({ job }: { job: Job }) {
           <dt className="font-bold text-slate-100">Type:</dt>
           <dd>{job.employmentType}</dd>
         </div>
+        <div className="flex gap-2">
+          <dt className="font-bold text-slate-100">Salary:</dt>
+          <dd>{job.salaryRange}</dd>
+        </div>
       </dl>
       <div className="mt-7 flex flex-wrap gap-3">
         <Link className="button-secondary flex-1" href={`/careers/${job.slug}`}>

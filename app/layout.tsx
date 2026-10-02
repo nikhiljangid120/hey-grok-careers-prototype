@@ -4,11 +4,11 @@ import "@/app/globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Careers flow prototype",
-    template: "%s | Careers flow prototype",
+    default: "Careers Flow Prototype",
+    template: "%s | Careers Flow Prototype",
   },
   description:
-    "An independently built prototype of a functional, accessible careers application journey.",
+    "Independent prototype inspired by the publicly observable Hey Grok Careers experience. Not affiliated with or endorsed by Hey Grok.",
 };
 
 export default function RootLayout({
@@ -20,20 +20,23 @@ export default function RootLayout({
         <a className="skip-link" href="#main-content">
           Skip to main content
         </a>
+        <div className="border-b border-orange-500/20 bg-orange-950/40 px-4 py-2 text-center text-xs text-orange-200">
+          Independent prototype inspired by the publicly observable Hey Grok Careers experience. Not affiliated with or endorsed by Hey Grok.
+        </div>
         <header className="border-b border-white/10">
           <div className="container-shell flex min-h-20 items-center justify-between gap-4">
             <Link
               className="flex min-h-11 items-center gap-3 font-bold tracking-tight"
               href="/careers"
-              aria-label="Grok Labs careers prototype home"
+              aria-label="Careers Flow Prototype home"
             >
               <span
                 aria-hidden="true"
-                className="grid size-9 place-items-center rounded-xl bg-orange-400 font-black text-slate-950"
+                className="grid size-9 place-items-center rounded-xl bg-orange-400 font-black text-slate-950 text-xs tracking-wider"
               >
-                G
+                CFP
               </span>
-              <span>Grok Labs</span>
+              <span className="text-white text-lg">Careers Flow Prototype</span>
             </Link>
             <nav aria-label="Primary navigation">
               <Link
@@ -47,9 +50,14 @@ export default function RootLayout({
         </header>
         {children}
         <footer className="mt-24 border-t border-white/10 py-10">
-          <div className="container-shell flex flex-col justify-between gap-4 text-sm text-slate-400 sm:flex-row">
-            <p>Independent careers-flow prototype.</p>
-            <p>Built for a clear, keyboard-friendly candidate journey.</p>
+          <div className="container-shell flex flex-col justify-between gap-4 text-sm text-slate-400 sm:flex-row sm:items-center">
+            <div>
+              <p className="font-semibold text-slate-300">Careers Flow Prototype</p>
+              <p className="mt-1 text-xs text-slate-400">
+                Independent prototype inspired by the publicly observable Hey Grok Careers experience. Not affiliated with or endorsed by Hey Grok.
+              </p>
+            </div>
+            <p className="text-xs text-slate-500 shrink-0">Built for a clear, keyboard-friendly candidate journey.</p>
           </div>
         </footer>
       </body>

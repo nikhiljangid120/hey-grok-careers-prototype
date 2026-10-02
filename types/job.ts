@@ -7,8 +7,9 @@ export type Job = {
   location: string;
   employmentType: string;
   salaryRange: string;
-  responsibilities: string[];
-  requirements: string[];
-  skills: string[];
+  responsibilities?: string[];
+  requirements?: string[];
+  skills?: string[];
   featured?: boolean;
+  isPubliclyObserved?: boolean;
 };

@@ -29,7 +29,7 @@ export default function CareersPage() {
     <main id="main-content">
       <section className="container-shell grid gap-12 py-20 lg:grid-cols-[1.2fr_0.8fr] lg:py-28">
         <div>
-          <p className="eyebrow">Careers at Grok Labs</p>
+          <p className="eyebrow">Careers Flow Prototype</p>
           <h1 className="mt-5 max-w-3xl text-5xl leading-[1.04] font-black tracking-[-0.045em] text-balance sm:text-7xl">
             Build useful AI with people who care about the details.
           </h1>

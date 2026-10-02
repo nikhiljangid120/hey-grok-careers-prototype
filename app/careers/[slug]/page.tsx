@@ -65,56 +65,77 @@ export default async function JobDetailsPage({ params }: PageProps) {
             </div>
           </dl>
 
-          <section className="mt-9" aria-labelledby="responsibilities-heading">
-            <h2
-              className="text-2xl font-bold"
-              id="responsibilities-heading"
-            >
-              What you’ll do
-            </h2>
-            <ul className="mt-4 grid gap-3 text-slate-300">
-              {job.responsibilities.map((item) => (
-                <li className="flex gap-3" key={item}>
-                  <span aria-hidden="true" className="text-orange-300">
-                    •
-                  </span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
+          {job.isPubliclyObserved ? (
+            <div className="mt-8 rounded-xl border border-sky-500/20 bg-sky-500/10 p-4 text-sm text-sky-200">
+              <p className="font-semibold text-sky-100">Publicly Observed Opening</p>
+              <p className="mt-1 text-xs text-sky-200/90">
+                Opening details matched directly to the public Hey Grok Careers page listing (Remote, Full-time, $150k-$200k).
+              </p>
+            </div>
+          ) : (
+            <div className="mt-8 rounded-xl border border-white/10 bg-white/5 p-4 text-sm text-slate-300">
+              <p className="text-xs text-slate-400">
+                Illustrative prototype job details, not an official Hey Grok job description.
+              </p>
+            </div>
+          )}
 
-          <section className="mt-9" aria-labelledby="requirements-heading">
-            <h2 className="text-2xl font-bold" id="requirements-heading">
-              What you bring
-            </h2>
-            <ul className="mt-4 grid gap-3 text-slate-300">
-              {job.requirements.map((item) => (
-                <li className="flex gap-3" key={item}>
-                  <span aria-hidden="true" className="text-orange-300">
-                    •
-                  </span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
+          {job.responsibilities && job.responsibilities.length > 0 ? (
+            <section className="mt-9" aria-labelledby="responsibilities-heading">
+              <h2
+                className="text-2xl font-bold"
+                id="responsibilities-heading"
+              >
+                What you’ll do
+              </h2>
+              <ul className="mt-4 grid gap-3 text-slate-300">
+                {job.responsibilities.map((item) => (
+                  <li className="flex gap-3" key={item}>
+                    <span aria-hidden="true" className="text-orange-300">
+                      •
+                    </span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
 
-          <section className="mt-9" aria-labelledby="skills-heading">
-            <h2 className="text-2xl font-bold" id="skills-heading">
-              Useful skills
-            </h2>
-            <ul className="mt-4 flex flex-wrap gap-2">
-              {job.skills.map((skill) => (
-                <li
-                  className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-sm text-slate-200"
-                  key={skill}
-                >
-                  {skill}
-                </li>
-              ))}
-            </ul>
-          </section>
+          {job.requirements && job.requirements.length > 0 ? (
+            <section className="mt-9" aria-labelledby="requirements-heading">
+              <h2 className="text-2xl font-bold" id="requirements-heading">
+                What you bring
+              </h2>
+              <ul className="mt-4 grid gap-3 text-slate-300">
+                {job.requirements.map((item) => (
+                  <li className="flex gap-3" key={item}>
+                    <span aria-hidden="true" className="text-orange-300">
+                      •
+                    </span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
+
+          {job.skills && job.skills.length > 0 ? (
+            <section className="mt-9" aria-labelledby="skills-heading">
+              <h2 className="text-2xl font-bold" id="skills-heading">
+                Useful skills
+              </h2>
+              <ul className="mt-4 flex flex-wrap gap-2">
+                {job.skills.map((skill) => (
+                  <li
+                    className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-sm text-slate-200"
+                    key={skill}
+                  >
+                    {skill}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
         </article>
 
         <aside className="surface-card h-fit p-6 lg:sticky lg:top-6">

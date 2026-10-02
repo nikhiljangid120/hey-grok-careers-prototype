@@ -73,24 +73,12 @@ export const jobs: Job[] = [
     title: "Full-Stack Engineer",
     department: "Engineering",
     description:
-      "Build thoughtful, dependable product experiences across the browser, API, and data layer.",
-    location: "Remote (US time zones)",
+      "Build the infrastructure that powers millions of conversations.",
+    location: "Remote",
     employmentType: "Full-time",
-    salaryRange: "$175,000–$230,000",
-    responsibilities: [
-      "Ship accessible customer-facing features from concept to production.",
-      "Design secure APIs and pragmatic data models for fast-moving products.",
-      "Improve performance, observability, testing, and developer experience.",
-      "Work closely with design and AI engineers to turn prototypes into durable systems.",
-    ],
-    requirements: [
-      "5+ years building and operating modern web applications.",
-      "Strong TypeScript, React, server-side, and relational-database experience.",
-      "A product mindset with care for usability, accessibility, and edge cases.",
-      "Clear written communication and comfort owning ambiguous problems.",
-    ],
-    skills: ["TypeScript", "React", "Next.js", "PostgreSQL", "Accessibility"],
+    salaryRange: "$150k-$200k",
     featured: true,
+    isPubliclyObserved: true,
   },
   {
     id: "cde69702-02a9-4a6b-8c99-2c2ee09954e1",

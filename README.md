@@ -301,4 +301,4 @@ Replace this section with the GitHub URL.
 
 ## Disclaimer
 
-This is an independently built candidate prototype based on a publicly observable Careers experience. It is not Hey Grok source code, does not reproduce private implementation details, and is not an official Hey Grok implementation. “Grok Labs” is fictional placeholder branding used only inside the prototype to avoid copying a proprietary logo or brand asset.
+This is an independently built candidate prototype based on the publicly observable Hey Grok Careers experience. It is not Hey Grok source code, does not reproduce private implementation details, and is not an official Hey Grok implementation. Branded as **"Careers Flow Prototype"** with a clear notice: *Independent prototype inspired by the publicly observable Hey Grok Careers experience. Not affiliated with or endorsed by Hey Grok.*
