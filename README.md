@@ -284,16 +284,9 @@ Covered scenarios include:
 
 ## Live Demo
 
-**Not deployed from this environment.** Add the Vercel or equivalent deployment URL here after configuring production Supabase variables and running the migration.
-
-Recommended release steps:
-
-1. Create/link the Supabase project.
-2. Apply the migration and verify the private bucket.
-3. Configure server-only environment variables in the hosting platform.
-4. Deploy the Next.js application.
-5. Complete one authorized end-to-end test with a real persisted application.
-6. Replace this section with the deployed URL.
+- **Live Careers Page**: [https://hey-grok-careers-prototype-nikhiljangid120s-projects.vercel.app/careers](https://hey-grok-careers-prototype-nikhiljangid120s-projects.vercel.app/careers)
+- **Direct Application Form**: [https://hey-grok-careers-prototype-nikhiljangid120s-projects.vercel.app/careers/full-stack-engineer/apply](https://hey-grok-careers-prototype-nikhiljangid120s-projects.vercel.app/careers/full-stack-engineer/apply)
+- **Deployment Inspector**: [https://vercel.com/nikhiljangid120s-projects/hey-grok-careers-prototype](https://vercel.com/nikhiljangid120s-projects/hey-grok-careers-prototype)
 
 ## Repository
 
