@@ -284,8 +284,8 @@ Covered scenarios include:
 
 ## Live Demo
 
-- **Live Careers Page**: [https://hey-grok-careers-prototype-nikhiljangid120s-projects.vercel.app/careers](https://hey-grok-careers-prototype-nikhiljangid120s-projects.vercel.app/careers)
-- **Direct Application Form**: [https://hey-grok-careers-prototype-nikhiljangid120s-projects.vercel.app/careers/full-stack-engineer/apply](https://hey-grok-careers-prototype-nikhiljangid120s-projects.vercel.app/careers/full-stack-engineer/apply)
+- **Live Careers Page**: [https://hey-grok-careers-prototype.vercel.app/careers](https://hey-grok-careers-prototype.vercel.app/careers)
+- **Direct Application Form**: [https://hey-grok-careers-prototype.vercel.app/careers/full-stack-engineer/apply](https://hey-grok-careers-prototype.vercel.app/careers/full-stack-engineer/apply)
 - **Deployment Inspector**: [https://vercel.com/nikhiljangid120s-projects/hey-grok-careers-prototype](https://vercel.com/nikhiljangid120s-projects/hey-grok-careers-prototype)
 
 ## Repository

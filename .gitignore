@@ -9,3 +9,5 @@ public/screenshots/*.png
 !.gitkeep
 *.tsbuildinfo
 .vercel/
+.vercel
+.env*
